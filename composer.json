@@ -1,0 +1,30 @@
+{
+    "name": "bd/sptl",
+    "description": "Banco de dados de GPS do STPL",
+    "type": "project",
+    "require": {
+        "php": "^7.4",
+        "slim/slim": "^4.8",
+        "slim/psr7": "^1.5",
+        "php-di/php-di": "^6.3",
+        "slim/php-view": "^3.1",
+        "mongodb/mongodb": "^1.10"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "App"
+        }
+    },
+    "authors": [
+        {
+            "name": "Erich Fournier",
+            "email": "erichfr1@gmail.com"
+        }
+    ],
+    "scripts": {
+        "server": "php -S localhost:9000 -t public"
+    },
+    "config": {
+        "process-timeout": 0
+    }
+}

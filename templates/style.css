@@ -1,0 +1,49 @@
+html {
+    height: 100%;
+}
+body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: consolas, arial;
+    font-size: 13px;
+    overflow-x: hidden;
+    color: #9b9b9b;
+    background-color: #000000;
+}
+#dvEscopo {
+    width: 1605px;
+    margin-left: 5px;
+}
+#dvTabela {
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    margin-left: 5px;
+}
+table.borda {
+    border-width: 1px;
+    border-style: dashed;
+}
+table.borda th {
+    border-top-width: 0px;
+    border-left-width: 0px;
+    border-right-width: 0px;
+    border-bottom-width: 1px;
+    border-style: dashed;
+}
+th, tr {
+    height: 25px;
+}
+table {
+    width: 1600px;
+    text-align: left;
+}
+label {
+    float: right;
+    margin-right: 5px;
+}
+.fonte {
+    width: 100%;
+}
